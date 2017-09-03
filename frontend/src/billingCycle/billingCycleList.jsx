@@ -27,7 +27,6 @@ class BillingCycleList extends Component {
     ))
   }
   render () {
-    console.log(this.props.list)
     return (
       <div>
         <table className='table'>
