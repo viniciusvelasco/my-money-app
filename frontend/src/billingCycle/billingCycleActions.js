@@ -26,6 +26,7 @@ export function remove (values) {
   return submit(values, 'delete')
 }
 function submit (values, method) {
+  console.log(values)
   return dispatch => {
     const id = values._id ? values._id : ''
     axios[method](`${BASE_URL}/billingCycles/${id}`, values)

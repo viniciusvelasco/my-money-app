@@ -14,6 +14,7 @@ import { init, create, update, remove } from './billingCycleActions'
 import List from './billingCycleList'
 import Form from './billingCycleForm'
 
+
 class BillingCycle extends Component {
   componentWillMount () {
     this.props.init()

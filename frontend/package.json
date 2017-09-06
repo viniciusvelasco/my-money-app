@@ -38,5 +38,11 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^1.27.0",
+    "@blueprintjs/datetime": "^1.22.0",
+    "overlay": "^1.2.5",
+    "react-addons-css-transition-group": "^15.6.0"
   }
 }
